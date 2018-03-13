@@ -1,0 +1,36 @@
+dex (0.8.0-2) unstable; urgency=medium
+
+  * control: Change Priority to optional
+  * copyright: Use https URL for copyright Format
+  * control: Change Vcs-* URLs to salsa.debian.org
+  * Bump debhelper compat to 11
+  * control: Declare compliance with Policy 4.1.3
+
+ -- James McCoy <jamessan@debian.org>  Mon, 12 Mar 2018 22:34:49 -0400
+
+dex (0.8.0-1) unstable; urgency=medium
+
+  [ upstream ]
+  * Support Service type desktop files
+
+  [ James McCoy ]
+  * Build-Depend on python3-sphinx to build the man page.
+  * Declare compliance with policy 4.0.0, no changes needed.
+
+ -- James McCoy <jamessan@debian.org>  Thu, 22 Jun 2017 22:12:41 -0400
+
+dex (0.7-2) unstable; urgency=medium
+
+  [ Scott Kitterman ]
+  * Change python3-dev build-dep to python3 since package is arch all
+    (Closes: #809437)
+  * Add explicit build-dep on dh-python since there is no guarantee python3
+    will always depends on it
+
+ -- James McCoy <jamessan@debian.org>  Wed, 30 Dec 2015 13:17:00 -0500
+
+dex (0.7-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #776033)
+
+ -- James McCoy <jamessan@debian.org>  Sun, 08 Feb 2015 21:31:03 -0500
